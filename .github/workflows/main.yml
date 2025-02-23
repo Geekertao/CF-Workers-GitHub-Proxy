@@ -1,0 +1,7 @@
+ 
+name = "cf-gh-proxy"
+main = "index.js"
+compatibility_date = "2025-2-23"
+
+[build.upload]
+format = "service-worker"
