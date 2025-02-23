@@ -1,6 +1,18 @@
-name = "cf-gh-proxy"
-main = "index.js"
-compatibility_date = "2025-2-23"
-
-[build.upload]
-format = "service-worker"
+name: Deploy Worker
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  repository_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build & Deploy Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
