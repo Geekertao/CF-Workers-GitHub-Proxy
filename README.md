@@ -1,6 +1,6 @@
 # CF-Workers-GitHub-Proxy
 ![img](./desktop.png)
-![img](./mobile.jpg)
+![img](./mobile.png)
 ## 简介
 github release、archive以及项目文件的加速项目，支持clone，Cloudflare Workers 版本
 
