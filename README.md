@@ -43,7 +43,7 @@ github release、archive以及项目文件的加速项目，支持clone，Cloudf
 点击下方按钮，填入信息即可完成部署：
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Geekertao/CF-Workers-GitHub-Proxy)
-
+（暂未调试完成，部署会显示失败）
 部署完成后需要：
 在Cloudflare控制台绑定自定义域名
 
