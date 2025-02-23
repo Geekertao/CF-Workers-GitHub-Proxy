@@ -1,0 +1,4 @@
+name = "gh-proxy"
+main = "./index.js"
+compatibility_date = "2025-02-23"
+compatibility_flags = [ "nodejs_compat" ]
