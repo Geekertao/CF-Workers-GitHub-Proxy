@@ -33,22 +33,22 @@ github release、archive以及项目文件的加速项目，支持clone，Cloudf
 - gist：https://gist.githubusercontent.com/cielpy/351557e6e465c12986419ac5a4dd2568/raw/cmd.py
 
 ## Workers 部署方法
-### 部署 Cloudflare Worker：
+### 手动部署 Cloudflare Worker：
 
    - 在 Cloudflare Worker 控制台中创建一个新的 Worker。
-   - 将 [index.js](https://github.com/Geekertao/CF-Workers-GitHub-Proxy/blob/4ffddf654428e6f016d638e87c466d96479952d4/src/index.js)  的内容粘贴到 Worker 编辑器中。
+   - 将 [src/index.js](https://github.com/Geekertao/CF-Workers-GitHub-Proxy/blob/4ffddf654428e6f016d638e87c466d96479952d4/src/index.js)  的内容粘贴到 Worker 编辑器中。
  
 ### 一键部署方法：
 
 点击下方按钮，填入信息即可完成部署：
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Geekertao/CF-Workers-GitHub-Proxy)
-（暂未调试完成，部署会显示失败）
-部署完成后需要：
+（暂未调试完成，部署会显示失败，当前仅能手动部署）<br>
+部署完成后需要：<br>
 在Cloudflare控制台绑定自定义域名
 
 # 文件信息
-本项目的[index.js](https://github.com/Geekertao/CF-Workers-GitHub-Proxy/blob/4ffddf654428e6f016d638e87c466d96479952d4/src/index.js)根据[gh-proxy](https://github.com/hunshcn/gh-proxy)中的[index.js](https://github.com/hunshcn/gh-proxy/blob/master/index.js)ASSET_URL修改为我的github pages地址，若要修改请前往[Geekertao.github.io](https://github.com/Geekertao/Geekertao.github.io/tree/db1c9d9f9007fa87296803563306a183b698533e/gh-proxy)先下载源码后修改，页面代码由[CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/)中的[_worker.js](https://github.com/cmliu/CF-Workers-GitHub/blob/main/_worker.js).js代码中的html部分修改而来。
+本项目的[src/index.js](https://github.com/Geekertao/CF-Workers-GitHub-Proxy/blob/4ffddf654428e6f016d638e87c466d96479952d4/src/index.js)根据[gh-proxy](https://github.com/hunshcn/gh-proxy)中的[index.js](https://github.com/hunshcn/gh-proxy/blob/master/index.js)ASSET_URL修改为我的github pages地址，若要修改请前往[Geekertao.github.io](https://github.com/Geekertao/Geekertao.github.io/tree/db1c9d9f9007fa87296803563306a183b698533e/gh-proxy)先下载源码后修改，页面代码由[CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/)中的[_worker.js](https://github.com/cmliu/CF-Workers-GitHub/blob/main/_worker.js).js代码中的html部分修改而来。
 
 # 致谢
 [gh-proxy](https://github.com/hunshcn/gh-proxy)、[jsproxy](https://github.com/EtherDream/jsproxy/)、[CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/)
