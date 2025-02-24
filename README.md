@@ -1,8 +1,8 @@
 # CF-Workers-GitHub-Proxy
 ## 桌面端预览
-![img](./desktop.png)
+![desktop](https://ghfile.geekertao.top/https://github.com/Geekertao/CF-Workers-GitHub-Proxy/blob/main/desktop.png)
 ## 移动端预览
-![img](./mobile.png)
+![mobile](https://ghfile.geekertao.top/https://github.com/Geekertao/CF-Workers-GitHub-Proxy/blob/main/mobile.png)
 ## 简介
 github release、archive以及项目文件的加速项目，支持clone，Cloudflare Workers 版本
 
