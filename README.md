@@ -1,10 +1,11 @@
 # CF-Workers-GitHub-Proxy
+#### 2025.5.25修改，现已支持github api加速！🎉🎉🎉
 ## 桌面端预览
 ![desktop](https://ghfile.geekertao.top/https://github.com/Geekertao/CF-Workers-GitHub-Proxy/blob/main/desktop.png)
 ## 移动端预览
 ![mobile](https://ghfile.geekertao.top/https://github.com/Geekertao/CF-Workers-GitHub-Proxy/blob/main/mobile.png)
 ## 简介
-github release、archive以及项目文件的加速项目，支持clone，Cloudflare Workers 版本
+github release、archive以及项目文件的加速项目，支持clone，github api，Cloudflare Workers 版本
 
 ## 使用
 
@@ -32,6 +33,8 @@ github release、archive以及项目文件的加速项目，支持clone，Cloudf
 
 - gist：https://gist.githubusercontent.com/cielpy/351557e6e465c12986419ac5a4dd2568/raw/cmd.py
 
+- api：
+https://api.github.com/repos/Geekertao/CF-Workers-GitHub-Proxy
 ## Workers 部署方法
 ### 部署 Cloudflare Worker：
 
@@ -39,7 +42,7 @@ github release、archive以及项目文件的加速项目，支持clone，Cloudf
    - 将 [index.js](https://github.com/Geekertao/gh-proxy/blob/main/index.js)  的内容粘贴到 Worker 编辑器中。
 
 # 文件信息
-本项目的[index.js](https://github.com/Geekertao/gh-proxy/blob/main/index.js)根据[gh-proxy](https://github.com/hunshcn/gh-proxy)中的[index.js](https://github.com/hunshcn/gh-proxy/blob/master/index.js)ASSET_URL修改为我的github pages地址，若要修改请前往[Geekertao.github.io](https://github.com/Geekertao/Geekertao.github.io/tree/db1c9d9f9007fa87296803563306a183b698533e/gh-proxy)先下载源码后修改，页面代码由[CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/)中的[_worker.js](https://github.com/cmliu/CF-Workers-GitHub/blob/main/_worker.js).js代码中的html部分修改而来。
+本项目的[index.js](https://github.com/Geekertao/gh-proxy/blob/main/index.js)根据[gh-proxy](https://github.com/hunshcn/gh-proxy)中的[index.js](https://github.com/hunshcn/gh-proxy/blob/master/index.js)ASSET_URL修改为我的github pages地址，若要修改请前往[Geekertao.github.io](https://github.com/Geekertao/Geekertao.github.io/tree/main/gh-proxy)先下载源码后修改，页面代码由[CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/)中的[_worker.js](https://github.com/cmliu/CF-Workers-GitHub/blob/main/_worker.js).js代码中的html部分修改而来。
 
 # 致谢
 [gh-proxy](https://github.com/hunshcn/gh-proxy)、[jsproxy](https://github.com/EtherDream/jsproxy/)、[CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/)
