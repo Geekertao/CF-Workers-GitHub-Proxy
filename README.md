@@ -1,9 +1,9 @@
 # CF-Workers-GitHub-Proxy
 #### 2025.5.25修改，现已支持github api加速！🎉🎉🎉
 ## 桌面端预览
-![desktop](https://ghfile.geekertao.top/https://github.com/Geekertao/CF-Workers-GitHub-Proxy/blob/main/desktop.png)
+![desktop](src/desktop.png)
 ## 移动端预览
-![mobile](https://ghfile.geekertao.top/https://github.com/Geekertao/CF-Workers-GitHub-Proxy/blob/main/mobile.png)
+![mobile](src/mobile.png)
 ## 简介
 github release、archive以及项目文件的加速项目，支持clone，github api，Cloudflare Workers 版本
 
