@@ -9,7 +9,7 @@ github release、archive以及项目文件的加速项目，支持clone，github
 
 ## 使用
 
-直接在copy出来的url前加`https://ghfile.geekertao.top/`或`https://github.dpik.top`即可
+直接在copy出来的url前加`https://ghfile.geekertao.top/`,`https://github.dpik.top/`或`https://gh.felicity.ac.cn/`即可
 
 也可以直接访问，在input输入
 
@@ -17,7 +17,7 @@ github release、archive以及项目文件的加速项目，支持clone，github
 
 访问私有仓库可以通过
 
-`git clone https://user:TOKEN@ghfile.geekertao.top/https://github.com/xxxx/xxxx`或`git clone https://user:TOKEN@github.dpik.top/https://github.com/xxxx/xxxx` [#71](https://github.com/hunshcn/gh-proxy/issues/71)
+`git clone https://user:TOKEN@ghfile.geekertao.top/https://github.com/xxxx/xxxx`,`git clone https://user:TOKEN@github.dpik.top/https://github.com/xxxx/xxxx`，`git clone https://user:TOKEN@gh.felicity.ac.cn/https://github.com/xxxx/xxxx` [#71](https://github.com/hunshcn/gh-proxy/issues/71)
 
 以下都是合法输入（仅示例，文件不存在）：
 
@@ -45,3 +45,4 @@ github release、archive以及项目文件的加速项目，支持clone，github
 
 # 致谢
 [gh-proxy](https://github.com/hunshcn/gh-proxy)、[jsproxy](https://github.com/EtherDream/jsproxy/)、[CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/)
+
