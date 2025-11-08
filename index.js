@@ -8,7 +8,7 @@ const ASSET_URL = 'https://geekertao.github.io/gh-proxy/'
 const PREFIX = '/'
 // 分支文件使用jsDelivr镜像的开关，0为关闭，默认关闭
 const Config = {
-    jsdelivr: 1
+    jsdelivr: 0
 }
 
 const whiteList = [] // 白名单，路径里面有包含字符的才会通过，e.g. ['/username/']
