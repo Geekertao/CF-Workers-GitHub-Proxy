@@ -40,8 +40,11 @@ github release、archive以及项目文件的加速项目，支持clone，github
    - 在 Cloudflare Worker 控制台中创建一个新的 Worker。
    - 将 [index.js](./index.js)  的内容粘贴到 Worker 编辑器中。
 
-# 文件信息
-本项目的[index.js](./index.js)根据[gh-proxy](https://github.com/hunshcn/gh-proxy)中的[index.js](https://github.com/hunshcn/gh-proxy/blob/master/index.js)ASSET_URL修改为我的github pages地址，若要修改请前往[Geekertao.github.io](https://github.com/Geekertao/Geekertao.github.io/tree/main/gh-proxy)先下载源码后修改，页面代码由[CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/)中的[_worker.js](https://github.com/cmliu/CF-Workers-GitHub/blob/main/_worker.js).js代码中的html部分修改而来。
+## 项目文件说明
+
+-  **`index.js`**  ：基于 [gh-proxy](https://github.com/hunshcn/gh-proxy) 项目的 [`index.js`](https://github.com/hunshcn/gh-proxy/blob/master/index.js) 修改，已将 `ASSET_URL` 配置为我的 GitHub Pages 地址。
+- **自定义配置**：如需修改 GitHub Pages 地址，请前往 [Geekertao.github.io](https://github.com/Geekertao/Geekertao.github.io/tree/main/gh-proxy) 仓库下载源码后编辑。
+- **页面代码**：HTML 部分参考自 [CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/) 项目的 [`_worker.js`](https://github.com/cmliu/CF-Workers-GitHub/blob/main/_worker.js) 文件。
 
 # 致谢
 [gh-proxy](https://github.com/hunshcn/gh-proxy)、[jsproxy](https://github.com/EtherDream/jsproxy/)、[CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/)
@@ -50,4 +53,5 @@ github release、archive以及项目文件的加速项目，支持clone，github
 <a href="https://afdian.com/a/Geekertao" target="_blank" rel="noopener noreferrer" style="flex-shrink: 0;">
       <img src="https://img.shields.io/badge/💵_爱发电-FF4D4D?style=flat-square&logo=usd&logoColor=white" alt="爱发电" style="max-height: 50px;">
     </a>
+
 
